@@ -30,4 +30,4 @@ jobs:
             cd /home/keykomi/mytube
             docker compose down
             docker compose up -d --build
-          timeout: 3600
+          timeout: '3600s'
