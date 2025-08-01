@@ -30,4 +30,4 @@ jobs:
             cd /home/keykomi/mytube
             docker compose down -v
             docker compose up -d --build --pull always --remove-orphans
-          timeout: 3600
+          timeout: 30m
