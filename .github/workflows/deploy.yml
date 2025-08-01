@@ -29,5 +29,5 @@ jobs:
           script: |
             cd /home/keykomi/mytube
             docker compose down -v
-            docker compose up -d --build
+            docker compose up -d --build --pull always --remove-orphans
           timeout: '3600s'
